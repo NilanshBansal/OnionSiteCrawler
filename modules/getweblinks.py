@@ -36,6 +36,9 @@ def get_links(soup, ext=False, live=False):
         for website in websites: 
             print(website)
         print('+++++++++++++++++++++++++++++++++++++')
+
+        print('ENTIRE CONTENT FOR THE PAGE : ')
+        print(soup)
         
 
         if live:
